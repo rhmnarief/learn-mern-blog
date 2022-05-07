@@ -1,14 +1,15 @@
 import React from 'react'
+import { LoginBg, RegisterBg } from '../../assets'
 import './register.scss'
 
 const Register = () => {
   return (
       <div className='main-page'>
         <div className='left'>
-            <p>ilustrasi</p>
+            <img src={RegisterBg} className="bg-image"/>
         </div>
         <div className='right'>
-            <p>Form Register</p>
+           <img src={LoginBg} className="bg-image"/>
         </div>
       </div>
   )
