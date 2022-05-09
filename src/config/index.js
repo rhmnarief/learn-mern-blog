@@ -1,3 +1,3 @@
-import Routers from "./Routes";
+import Routes from "./Routes";
 
-export {Routers};
+export {Routes};
